@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeMaster Dev</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./img/principal.jpg">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css">
+    <!-- Estilos importados-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Fontes personalizadas -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <!-- Meta tag para descrição do site -->
+  <meta name="description" content="Meu Portfólio - CodeMaster Dev">
+</head>
+<body>
+  <!-- Navegação -->
+   <nav>
+    <ul class="navlist">
+      <li class="active"><a href="#home">Início</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#projects">Projetos</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+
+    <div>
+      <ul class="social-network">
+        <li>
+          <div id="switch" onclick="toggleMode()">
+            <button></button>
+            <span></span>
+          </div>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/maria-eduarda-santos-a73ab2355/" target="_blank">
+            <figure id="fig1"></figure>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Duda-Santosr" target="_blank">
+            <figure id="fig2"></figure>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Icone do menu mobile -->
+     <div class="bx bx-menu" id="menu-icon"></div>
+   </nav>
+  
+  <!-- Conteúdo principal -->
+  <main>
+    <!-- Seção Home -->
+     <section id="home" class="home">
+      <div class="home-presentation">
+        <p class="my-name">Meu nome é</p>
+        <h1 id="name">MARIA EDUARDA</h1>
+        <h1 id="last-name">DEV</h1>
+        <h3><p>Sou</p> Desenvolvedor Web <span><strong>|</strong>Front-end</span></h3>
+        <div class="button">
+          <a href="#projects" class="project-button">Projetos</a>
+          <a href="#contact" class="contact-button">Contato</a>
+        </div>
+      </div>
+      <img src="img/principal (2).jpg" alt="laptop" class="home-mac">
+     </section>
+
+    
+    <!-- Seção Sobre Mim -->
+     <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/foto.png" alt="">
+      </div>
+      <div class="about-text">
+        <h2><span>SOBRE</span> MIM</h2>
+        <p>
+          Tenho 16 anos e atualmente estou cursando o técnico em Desenvolvimento de Sistemas no SENAI. Além disso, estou finalizando o ensino médio no SESI. Tenho uma grande paixão pelo design de sites e adoro mexer com protótipos no Figma, sempre buscando formas criativas de melhorar a experiência do usuário. 
+        </p>
+        <p>
+          Sou uma pessoa que se destaca em trabalho em equipe, sempre buscando colaborar de forma eficaz para alcançar os objetivos em conjunto. Tenho facilidade em liderança e sou organizada, o que me permite gerenciar bem as tarefas e prazos. Estou sempre em busca de novos aprendizados e desafios na área de tecnologia!  <br> <br>No entanto, meu grande sonho é cursar Biomedicina e seguir uma pós-graduação em Estética, pois é essa área que realmente me apaixona.
+        </p>
+        <button class="button-cv">
+          <a href="assets/Currículo Maria Eduarda.pdf" download="CV - CodeMaster Dev" class="btn-cv">Dowload CV</a>
+        </button>
+      </div>
+     
+     </section>
+
+     <!-- Seção Habilidades -->
+      <section class="skills" id="skills">
+        <div class="line"></div>
+        <div class="tech">
+          <h2>TECNOLOGIAS</h2>
+          <div class="techs">
+            <div class="card">
+              <img src="img/html-icon.svg" alt="icone HTML">
+              <p>HTML</p>
+            </div>
+            <div class="card">
+              <img src="img/css-icon.svg" alt="icone CSS">
+              <p>CSS</p>
+            </div>
+            <div class="card">
+              <img src="img/js-icon.svg" alt="icone javascript">
+              <p>JavaScript</p>
+            </div>
+            <div class="card">
+              <img src="img/icons8-logo-php.svg" alt="icone react.js">
+              <p>PHP</p>
+            </div>
+            <div class="card">
+              <img src="img/node-js-icon.svg" alt="icone node.js">
+              <p>Node.js</p>
+            </div>
+            <div class="card">
+              <img src="img/bootstrap.svg" alt="icone bootstrap">
+              <p>Bootstrap</p>
+            </div>
+            <div class="card">
+              <img src="img/sql-icon.svg" alt="icone sql">
+              <p>SQL</p>
+            </div>
+            <div class="card">
+              <img src="img/git-icon.svg" alt="icone git">
+              <p>Git</p>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="tool">
+          <h2>FERRAMENTAS</h2>
+          <div class="tools">
+            <div class="card">
+              <img src="img/github-icon.svg" alt="icone github">
+              <p>GitHub</p>
+            </div>
+            <div class="card">
+              <img src="img/vs-code-icon.svg" alt="icone vscode">
+              <p>VSCode</p>
+            </div>
+            <div class="card">
+              <img src="img/figma-icon.svg" alt="icone figma">
+              <p>Figma</p>
+            </div>
+            <div class="card">
+              <img src="img/icons8-tela.svg" alt="icone canva">
+              <p>Canva</p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+    <!-- Seção de Projetos -->
+    <section id="projects" class="projects">
+      <div class="line"></div>
+      <div class="main-text">
+        <h2>Meus <span>Projetos</span></h2>
+      </div>
+      <!-- conainer do carrosel -->
+       <div class="carousel-container">
+          <!-- botoes de navegação -->
+          <button class="carousel-button prev" aria-label="Projeto anterior">&#10094;</button>
+          <button class="carousel-button next" aria-label="Proximo projeto">&#10095;</button>
+          <!-- slides do carrosel -->
+          <div class="carousel-slides">
+            <!-- slide 1 -login -->
+            <div class="carousel-slide active">
+                <div class="row">
+                  <img src="img/resumo_js.png" alt="resumo JS">
+                  <div class="layer">
+                    <h5>Resumo de JavaScript</h5>
+                    <p>Resumo feito no canva, sobre introdução de JavaScript.</p>
+                  </div>
+                </div>
+            </div>
+             <!-- Slide 2 - cronometro -->
+              <div class="carousel-slide">
+                <div class="row">
+                  <img src="img/livropg.png" alt="pagina livo">
+                  <div class="layer">
+                    <h5>Página Livro</h5>
+                    <p>Página criada para fins educacionais, com o objetivo de divulgação de um livro.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 3 - Formulário -->
+               <div class="carousel-slide">
+                <div class="row">
+                  <img src="img/canvaframework.png" alt="resumo">
+                  <div class="layer">
+                    <h5>Resumo Framework</h5>
+                    <p>Resumo sobre Frmaworks desenvolvido no CANVA.</p>
+                  </div>
+                </div>
+               </div>
+          </div>
+       </div>
+     </section>
+   
+    <!-- Seção de Contato -->
+     <section class="contact" id="contact">
+      <div class="contact-text">
+        <div class="main-text">
+          <h2>Entre em <span>contato:</span></h2>
+        </div>
+      </div>
+      <div class="contact-form">
+        <!-- Serviço gratuito (formsubmit) que envuia os dados para o email descrito abaixo -->
+         <form action="maria.e.santosr13@gmail.com" id="contacForm" method="POST">
+            <input type="text" name="name" placeholder="Digite seu nome" required>
+            <input type="email" name="email" placeholder="Digite seu e-mail" required>
+            <input type="hidden" name="_captcha" value="false">
+            <textarea name="text" type="text" cols="35" rows="10" placeholder="Como eu posso te ajudar?" required></textarea>
+            <br>
+            <input type="submit" value="Enviar" class="submit" required>
+         </form>
+         <!-- Mensagem de agradecimento (após enviar formulário) -->
+          <div id="thankYouMessage" class="thank-you-message">
+            Obrigado! Aguarde nosso retorno!
+          </div>
+      </div>
+     </section>
+
+
+  </main>
+
+  <!-- Rodapé -->
+   <section class="end">
+    <div class="last-text">
+      <p>by CodeMaster  <img src="img/compass (2).svg" alt="">  Alguns direitos reservados.</p>
+    </div>
+
+    <div class="top">
+      <!-- Seta adicionada no serviço: boxicons -->
+       <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+   </section>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
